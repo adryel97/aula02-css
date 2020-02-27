@@ -1,0 +1,45 @@
+h1{
+    color: #20a89d;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 span{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+h2{
+    text-decoration: underline;
+    background-color: #b99797;
+    text-align: center;
+    border: 1px dotted #000000;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 5px;
+    border-top-width: 5px;
+    padding: 15px;
+}
+.titulo-com-borda{
+    border: 1px solid #000000;
+    color: #da1a1a
+}
+#meu-titulo{
+    color: #11a111;
+    padding-top: 80px;
+}
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background: #da1a1a;
+    border-radius: 50%;
+}
+.bandeira{
+    width: 400px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid #000000;
+    position: relative;
+    left: 500px;
+}

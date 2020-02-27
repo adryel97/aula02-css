@@ -1,0 +1,82 @@
+.circulo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: inset -10px -10px 10px #a9a206, inset -5px -5px 10px #d8d8d8;
+}
+.cemafaro{
+    width: 100px;
+    height: 200px;
+    background: #000000;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+.circulo__1, .circulo__2, .circulo__3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px 0px;
+}
+.circulo__1{
+    background: #008000;
+    box-shadow: inset -10px -10px 10px  #355a11, inset -5px -5px 10px #d8d8d8;
+    animation: piscarVerde 1s infinite;
+}
+.circulo__1:hover{
+    background: #0ce20c;
+    box-shadow: none;
+}
+.circulo__2{
+    background: #ffa500;
+    box-shadow: inset -10px -10px 10px #8a8629, inset -5px -5px 10px #d8d8d8;
+    animation: piscarAmarelo 1s infinite;
+}
+
+.cirvculo__2:hover{
+    background: #fdf918;
+    box-shadow: none;
+}
+.circulo__3{
+    background: #ff0000;
+    box-shadow: inset -10px -10px 10px #a90606, inset -5px -5px 10px #d8d8d8;
+    animation: piscarVermelho 1s infinite;
+
+}
+.circulo__3:hover{
+    background: #f85336;
+    box-shadow: none;
+}
+
+@keyframes piscarAmarelo{
+    from{
+       background: #ffa500;
+    }
+    to{
+       background: #fdf918;
+       box-shadow: none;
+    }
+}
+@keyframes piscarVerde{
+    from{
+        background: #008000;
+    }
+    to{
+        background: #0ce20c;
+        box-shadow: none;
+    }
+}
+@keyframes piscarVermelho{
+    from{
+        background: #ff0000;
+    }
+    to{
+        background: #f85336;
+        box-shadow: none;
+    }
+}
