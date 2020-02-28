@@ -24,59 +24,52 @@
     margin: 5px 0px;
 }
 .circulo__1{
-    background: #008000;
-    box-shadow: inset -10px -10px 10px  #355a11, inset -5px -5px 10px #d8d8d8;
-    animation: piscarVerde 1s infinite;
+    background: #000000;
+    animation: piscarVerde 3s infinite;
 }
-.circulo__1:hover{
-    background: #0ce20c;
-    box-shadow: none;
-}
+
 .circulo__2{
-    background: #ffa500;
-    box-shadow: inset -10px -10px 10px #8a8629, inset -5px -5px 10px #d8d8d8;
-    animation: piscarAmarelo 1s infinite;
+    background: #000000;
+    animation: piscarAmarelo 3s infinite;
 }
 
-.cirvculo__2:hover{
-    background: #fdf918;
-    box-shadow: none;
-}
 .circulo__3{
-    background: #ff0000;
-    box-shadow: inset -10px -10px 10px #a90606, inset -5px -5px 10px #d8d8d8;
-    animation: piscarVermelho 1s infinite;
+    background: #000000;
+    animation: piscarVermelho 3s infinite;
 
 }
-.circulo__3:hover{
-    background: #f85336;
-    box-shadow: none;
-}
+
 
 @keyframes piscarAmarelo{
     from{
-       background: #ffa500;
+       background: #000000;
+       transform: scale(0.80)
     }
     to{
        background: #fdf918;
        box-shadow: none;
+       transform: scale(1.2)
     }
 }
 @keyframes piscarVerde{
     from{
-        background: #008000;
+        background: #000000;
+        transform: scale(0.80)
     }
     to{
         background: #0ce20c;
         box-shadow: none;
+        transform: scale(1.2)
     }
 }
 @keyframes piscarVermelho{
     from{
-        background: #ff0000;
+        background: #000000;
+        transform: scale(0.80)
     }
     to{
         background: #f85336;
         box-shadow: none;
+        transform: scale(1.2)
     }
 }
